@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Models\Oapp;
+use Phattarachai\LineNotify\Facade\Line;
+
+
 
 class HomeController extends Controller
 {  
@@ -16,17 +19,24 @@ class HomeController extends Controller
     {
         $datahos = DB::connection('mysql2')
         ->table('oapp')
-        ->select('clinic.name','patient.pname','patient.fname','patient.lname','oapp.clinic','oapp.oapp_id','oapp.doctor','oapp.clinic','oapp.vstdate','oapp.nextdate','oapp.nexttime','oapp.hn','doctor.name as dname')
+        ->select('clinic.name','patient.pname','patient.fname','patient.lname','oapp.clinic','oapp.oapp_id as oappid','oapp.doctor','oapp.clinic','oapp.vstdate','oapp.nextdate','oapp.nexttime','oapp.hn','doctor.name as dname')
         ->leftJoin('patient', 'oapp.hn', '=', 'patient.hn')
         ->leftJoin('clinic', 'oapp.clinic', '=', 'clinic.clinic')
         ->leftJoin('doctor', 'oapp.doctor', '=', 'doctor.code')
         ->leftJoin('ovst', 'oapp.nextdate', '=', 'ovst.vstdate')
         ->leftJoin('kskdepartment', 'oapp.depcode', '=', 'kskdepartment.depcode')
         ->where('oapp.clinic','=',01)
-        ->WhereBetween('oapp.vstdate', ['2021-12-01', '2021-12-20'])
+        ->WhereBetween('oapp.nextdate', ['2021-12-15', '2021-12-25'])
         ->get();
         return view('home',[
             'datahos' => $datahos,
         ]);
     }
+
+// จากใน Controller หรือที่อื่น ๆ
+// Line::send('ทดสอบส่งข้อความ');
+
+
+
+
 }
