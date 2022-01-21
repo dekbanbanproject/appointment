@@ -303,7 +303,7 @@
 
       <div class="main-menu menu-fixed menu-dark menu-accordion menu-shadow" data-scroll-to-active="true">
         <div class="main-menu-content">
-            <!-- <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">     
+             <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">     
                 <li class="active"><a href=""><span class="menu-title" data-i18n="Crypto Dashboard"></span></a>
                 </li>
                 <li class=" nav-item"><a href="#"><i class="fas fa-swatchbook"></i><span class="menu-title" data-i18n="Components">งานเอกสาร</span></a>
@@ -322,11 +322,18 @@
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <span class="badge badge-info right">&nbsp;2&nbsp;</span>
                          </a>
+                        </li>    
+                        <li><a class="menu-item" href="{{url('sendnotify')}}">
+                            <i class="fas fa-paper-plane nav-icon mr-1"></i>
+                            sendnotify
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="badge badge-info right">&nbsp;2&nbsp;</span>
+                         </a>
                         </li>                    
                        
                     </ul>
                 </li>                            
-            </ul> -->
+            </ul> 
         </div>
     </div>
 
