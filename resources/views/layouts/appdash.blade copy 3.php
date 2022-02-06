@@ -10,30 +10,30 @@
     <meta name="keywords" content="admin template, modern admin template, dashboard template, flat admin template, responsive admin template, web app, crypto dashboard, bitcoin dashboard">
     <meta name="author" content="PIXINVENT">
     <title>Hospital Dashboard - Modern Admin - Clean Bootstrap 4 Dashboard HTML Template + Bitcoin Dashboard</title>
-    <link rel="apple-touch-icon" href="{{asset('app-assets/images/ico/apple-icon-120.png')}}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('app-assets/images/ico/favicon.ico')}}">
+    <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CQuicksand:300,400,500,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{asset('app-assets/fonts/material-icons/material-icons.css')}}">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/fonts/material-icons/material-icons.css">
 
     <!-- BEGIN: Vendor CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('app-assets/vendors/css/material-vendors.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/material-vendors.min.css">
     <!-- END: Vendor CSS-->
 
     <!-- BEGIN: Theme CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('app-assets/css/material.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('app-assets/css/components.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('app-assets/css/bootstrap-extended.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('app-assets/css/material-extended.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('app-assets/css/material-colors.css')}}">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/material.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/material-extended.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/material-colors.css">
     <!-- END: Theme CSS-->
 
     <!-- BEGIN: Page CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('app-assets/css/core/menu/menu-types/material-vertical-menu.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('app-assets/css/pages/hospital.css')}}">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/material-vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/hospital.css">
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
     <!-- END: Custom CSS-->
 
 </head>
@@ -50,7 +50,7 @@
                 <ul class="nav navbar-nav flex-row">
                     <li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu font-large-1"></i></a></li>
                     <li class="nav-item"><a class="navbar-brand" href="index.html">
-                        {{-- <img class="brand-logo" alt="modern admin logo" src="{{asset('app-assets/images/logo/logo.png"> --}}
+                        {{-- <img class="brand-logo" alt="modern admin logo" src="../../../app-assets/images/logo/logo.png"> --}}
                         <img class="brand-logo" alt="modern admin logo" src="{{ asset('/img/logo/Zooshi.png') }}" style="height:40px; width:40px;" style="opacity: .8">
                         <h3 class="brand-text">Zooshi-Center</h3>
                         </a></li>
@@ -130,10 +130,7 @@
                     </ul>
                     <ul class="nav navbar-nav float-right">
                         <li class="dropdown dropdown-language nav-item"><a class="dropdown-toggle nav-link" id="dropdown-flag" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="flag-icon flag-icon-gb"></i><span class="selected-language"></span></a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown-flag">
-                                <a class="dropdown-item" href="#" data-language="th"><i class="flag-icon flag-icon-th"></i> Thai</a> 
-                                <a class="dropdown-item" href="#" data-language="en"><i class="flag-icon flag-icon-us"></i> English</a>                                                              
-                            </div>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-flag"><a class="dropdown-item" href="#" data-language="en"><i class="flag-icon flag-icon-us"></i> English</a><a class="dropdown-item" href="#" data-language="fr"><i class="flag-icon flag-icon-fr"></i> French</a><a class="dropdown-item" href="#" data-language="pt"><i class="flag-icon flag-icon-pt"></i> Portuguese</a><a class="dropdown-item" href="#" data-language="de"><i class="flag-icon flag-icon-de"></i> German</a></div>
                         </li>
                         <li class="dropdown dropdown-notification nav-item"><a class="nav-link nav-link-label" href="#" data-toggle="dropdown"><i class="material-icons">notifications_none</i><span class="badge badge-pill badge-danger badge-up badge-glow">5</span></a>
                             <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
@@ -194,7 +191,7 @@
                                 </li>
                                 <li class="scrollable-container media-list w-100"><a href="javascript:void(0)">
                                         <div class="media">
-                                            <div class="media-left"><span class="avatar avatar-sm avatar-online rounded-circle"><img src="{{asset('app-assets/images/portrait/small/avatar-s-19.png')}}" alt="avatar"><i></i></span></div>
+                                            <div class="media-left"><span class="avatar avatar-sm avatar-online rounded-circle"><img src="../../../app-assets/images/portrait/small/avatar-s-19.png" alt="avatar"><i></i></span></div>
                                             <div class="media-body">
                                                 <h6 class="media-heading">Margaret Govan</h6>
                                                 <p class="notification-text font-small-3 text-muted">I like your portfolio, let's start.</p><small>
@@ -203,7 +200,7 @@
                                         </div>
                                     </a><a href="javascript:void(0)">
                                         <div class="media">
-                                            <div class="media-left"><span class="avatar avatar-sm avatar-busy rounded-circle"><img src="{{asset('app-assets/images/portrait/small/avatar-s-2.png')}}" alt="avatar"><i></i></span></div>
+                                            <div class="media-left"><span class="avatar avatar-sm avatar-busy rounded-circle"><img src="../../../app-assets/images/portrait/small/avatar-s-2.png" alt="avatar"><i></i></span></div>
                                             <div class="media-body">
                                                 <h6 class="media-heading">Bret Lezama</h6>
                                                 <p class="notification-text font-small-3 text-muted">I have seen your work, there is</p><small>
@@ -212,7 +209,7 @@
                                         </div>
                                     </a><a href="javascript:void(0)">
                                         <div class="media">
-                                            <div class="media-left"><span class="avatar avatar-sm avatar-online rounded-circle"><img src="{{asset('app-assets/images/portrait/small/avatar-s-3.png')}}" alt="avatar"><i></i></span></div>
+                                            <div class="media-left"><span class="avatar avatar-sm avatar-online rounded-circle"><img src="../../../app-assets/images/portrait/small/avatar-s-3.png" alt="avatar"><i></i></span></div>
                                             <div class="media-body">
                                                 <h6 class="media-heading">Carie Berra</h6>
                                                 <p class="notification-text font-small-3 text-muted">Can we have call in this week ?</p><small>
@@ -221,7 +218,7 @@
                                         </div>
                                     </a><a href="javascript:void(0)">
                                         <div class="media">
-                                            <div class="media-left"><span class="avatar avatar-sm avatar-away rounded-circle"><img src="{{asset('app-assets/images/portrait/small/avatar-s-6.png')}}" alt="avatar"><i></i></span></div>
+                                            <div class="media-left"><span class="avatar avatar-sm avatar-away rounded-circle"><img src="../../../app-assets/images/portrait/small/avatar-s-6.png" alt="avatar"><i></i></span></div>
                                             <div class="media-body">
                                                 <h6 class="media-heading">Eric Alsobrook</h6>
                                                 <p class="notification-text font-small-3 text-muted">We have project party this saturday.</p><small>
@@ -232,7 +229,7 @@
                                 <li class="dropdown-menu-footer"><a class="dropdown-item text-muted text-center" href="javascript:void(0)">Read all messages</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown"><span class="mr-1 user-name text-bold-700">John Doe</span><span class="avatar avatar-online"><img src="{{asset('app-assets/images/portrait/small/avatar-s-19.png')}}" alt="avatar"><i></i></span></a>
+                        <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown"><span class="mr-1 user-name text-bold-700">John Doe</span><span class="avatar avatar-online"><img src="../../../app-assets/images/portrait/small/avatar-s-19.png" alt="avatar"><i></i></span></a>
                             <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#"><i class="material-icons">person_outline</i> Edit Profile</a><a class="dropdown-item" href="#"><i class="material-icons">playlist_add_check</i> Todo</a><a class="dropdown-item" href="#"><i class="material-icons">content_paste</i> Task</a>
                                 <div class="dropdown-divider"></div><a class="dropdown-item" href="login-with-bg-image.html"><i class="material-icons">power_settings_new</i> Logout</a>
                             </div>
@@ -249,7 +246,7 @@
 
     <div class="main-menu material-menu menu-fixed menu-light menu-accordion    menu-shadow " data-scroll-to-active="true">
         <div class="user-profile">
-            <div class="user-info text-center pb-2"><img class="user-img img-fluid rounded-circle w-25 mt-2" src="{{asset('app-assets/images/portrait/small/avatar-s-1.png')}}" alt="" />
+            <div class="user-info text-center pb-2"><img class="user-img img-fluid rounded-circle w-25 mt-2" src="../../../app-assets/images/portrait/small/avatar-s-1.png" alt="" />
                 <div class="name-wrapper d-block dropdown mt-1"><a class="white dropdown-toggle ml-2" id="user-account" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="user-name">Charlie Adams</span></a>
                     <div class="text-light">UX Designer</div>
                     <div class="dropdown-menu arrow"><a class="dropdown-item"><i class="material-icons align-middle mr-1">person</i><span class="align-middle">Profile</span></a><a class="dropdown-item"><i class="material-icons align-middle mr-1">message</i><span class="align-middle">Messages</span></a><a class="dropdown-item"><i class="material-icons align-middle mr-1">attach_money</i><span class="align-middle">Balance</span></a><a class="dropdown-item"><i class="material-icons align-middle mr-1">settings</i><span class="align-middle">Settings</span></a><a class="dropdown-item"><i class="material-icons align-middle mr-1">power_settings_new</i><span class="align-middle">Log Out</span></a></div>
@@ -314,7 +311,158 @@
                 </li>
                 <li class=" nav-item"><a href="full-calender-basic.html"><i class="material-icons">event</i><span class="menu-title" data-i18n="Calendar">Calendar</span></a>
                 </li>
-               
+                <li class=" navigation-header"><span data-i18n="User Interface">User Interface</span><i class="material-icons nav-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="User Interface">more_horiz</i>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="material-icons">straighten</i><span class="menu-title" data-i18n="Material Components">Material Components</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="material-component-buttons.html"><i class="material-icons"></i><span data-i18n="Buttons">Buttons</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-cards.html"><i class="material-icons"></i><span data-i18n="Cards">Cards</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-chips.html"><i class="material-icons"></i><span data-i18n="Chips">Chips</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-datatables.html"><i class="material-icons"></i><span data-i18n="Data tables">Data tables</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-dialogs.html"><i class="material-icons"></i><span data-i18n="Dialogs">Dialogs</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-elevation-shadows.html"><i class="material-icons"></i><span data-i18n="Elevation Shadows">Elevation Shadows</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-expansion-panels.html"><i class="material-icons"></i><span data-i18n="Expansion Panels">Expansion Panels</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-icons.html"><i class="material-icons"></i><span data-i18n="Icons">Icons</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-menu.html"><i class="material-icons"></i><span data-i18n="Menu">Menu</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-navigation.html"><i class="material-icons"></i><span data-i18n="Navigation Drawer">Navigation Drawer</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-pickers.html"><i class="material-icons"></i><span data-i18n="Pickers">Pickers</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-progress.html"><i class="material-icons"></i><span data-i18n="Progress">Progress</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-selection-controls.html"><i class="material-icons"></i><span data-i18n="Selection Controls">Selection Controls</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-snackbars.html"><i class="material-icons"></i><span data-i18n="Snackbars">Snackbars</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-steppers.html"><i class="material-icons"></i><span data-i18n="Steppers">Steppers</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-tabs.html"><i class="material-icons"></i><span data-i18n="Tabs">Tabs</span></a>
+                        </li>
+                        <li><a class="menu-item" href="material-component-textfields.html"><i class="material-icons"> </i><span data-i18n="Text fields">Text fields</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="material-icons">view_list</i><span class="menu-title" data-i18n="Components">Components</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="component-alerts.html"><i class="material-icons"></i><span data-i18n="Alerts">Alerts</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-callout.html"><i class="material-icons"></i><span data-i18n="Callout">Callout</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-buttons-basic.html"><i class="material-icons"></i><span data-i18n="Buttons">Buttons</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-carousel.html"><i class="material-icons"></i><span data-i18n="Carousel">Carousel</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-collapse.html"><i class="material-icons"></i><span data-i18n="Collapse">Collapse</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-dropdowns.html"><i class="material-icons"></i><span data-i18n="Dropdowns">Dropdowns</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-list-group.html"><i class="material-icons"></i><span data-i18n="List Group">List Group</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-modals.html"><i class="material-icons"></i><span data-i18n="Modals">Modals</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-pagination.html"><i class="material-icons"></i><span data-i18n="Pagination">Pagination</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-navs-component.html"><i class="material-icons"></i><span data-i18n="Navs Component">Navs Component</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-tabs-component.html"><i class="material-icons"></i><span data-i18n="Tabs Component">Tabs Component</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-pills-component.html"><i class="material-icons"></i><span data-i18n="Pills Component">Pills Component</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-tooltips.html"><i class="material-icons"></i><span data-i18n="Tooltips">Tooltips</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-popovers.html"><i class="material-icons"></i><span data-i18n="Popovers">Popovers</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-badges.html"><i class="material-icons"></i><span data-i18n="Badges">Badges</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-pill-badges.html"><i class="material-icons"></i><span>Pill Badges</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-progress.html"><i class="material-icons"></i><span data-i18n="Progress">Progress</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-media-objects.html"><i class="material-icons"></i><span data-i18n="Media Objects">Media Objects</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-scrollable.html"><i class="material-icons"></i><span data-i18n="Scrollable">Scrollable</span></a>
+                        </li>
+                        <li><a class="menu-item" href="component-spinners.html"><i class="material-icons"></i><span data-i18n="Spinners">Spinners</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="material-icons">lock_outline</i><span class="menu-title" data-i18n="Authentication">Authentication</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="login-with-bg-image.html" target="_blank"><i class="material-icons"></i><span>Login</span></a>
+                        </li>
+                        <li><a class="menu-item" href="register-with-bg-image.html" target="_blank"><i class="material-icons"></i><span>SignIn</span></a>
+                        </li>
+                        <li><a class="menu-item" href="recover-password.html" target="_blank"><i class="material-icons"></i><span>Forgot Password</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="material-icons">grid_on</i><span class="menu-title" data-i18n="Form Layouts">Form Layouts</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="form-layout-basic.html"><i class="material-icons"></i><span data-i18n="Basic Forms">Basic Forms</span></a>
+                        </li>
+                        <li><a class="menu-item" href="form-layout-horizontal.html"><i class="material-icons"></i><span data-i18n="Horizontal Forms">Horizontal Forms</span></a>
+                        </li>
+                        <li><a class="menu-item" href="form-layout-hidden-labels.html"><i class="material-icons"></i><span data-i18n="Hidden Labels">Hidden Labels</span></a>
+                        </li>
+                        <li><a class="menu-item" href="form-layout-form-actions.html"><i class="material-icons"></i><span data-i18n="Form Actions">Form Actions</span></a>
+                        </li>
+                        <li><a class="menu-item" href="form-layout-row-separator.html"><i class="material-icons"></i><span data-i18n="Row Separator">Row Separator</span></a>
+                        </li>
+                        <li><a class="menu-item" href="form-layout-bordered.html"><i class="material-icons"></i><span data-i18n="Bordered">Bordered</span></a>
+                        </li>
+                        <li><a class="menu-item" href="form-layout-striped-rows.html"><i class="material-icons"></i><span data-i18n="Striped Rows">Striped Rows</span></a>
+                        </li>
+                        <li><a class="menu-item" href="form-layout-striped-labels.html"><i class="material-icons"></i><span data-i18n="Striped Labels">Striped Labels</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="material-icons">linear_scale</i><span class="menu-title" data-i18n="Form Wizard">Form Wizard</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="form-wizard-circle-style.html"><i class="material-icons"></i><span data-i18n="Circle Style">Circle Style</span></a>
+                        </li>
+                        <li><a class="menu-item" href="form-wizard-notification-style.html"><i class="material-icons"></i><span data-i18n="Notification Style">Notification Style</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="material-icons">format_list_numbered</i><span class="menu-title" data-i18n="Bootstrap Tables">Bootstrap Tables</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="table-basic.html"><i class="material-icons"></i><span data-i18n="Basic Tables">Basic Tables</span></a>
+                        </li>
+                        <li><a class="menu-item" href="table-border.html"><i class="material-icons"></i><span data-i18n="Table Border">Table Border</span></a>
+                        </li>
+                        <li><a class="menu-item" href="table-sizing.html"><i class="material-icons"></i><span data-i18n="Table Sizing">Table Sizing</span></a>
+                        </li>
+                        <li><a class="menu-item" href="table-styling.html"><i class="material-icons"></i><span data-i18n="Table Styling">Table Styling</span></a>
+                        </li>
+                        <li><a class="menu-item" href="table-components.html"><i class="material-icons"></i><span data-i18n="Table Components">Table Components</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="material-icons">show_chart</i><span class="menu-title" data-i18n="Chartjs">Chartjs</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="chartjs-line-charts.html"><i class="material-icons"></i><span data-i18n="Line charts">Line charts</span></a>
+                        </li>
+                        <li><a class="menu-item" href="chartjs-bar-charts.html"><i class="material-icons"></i><span data-i18n="Bar charts">Bar charts</span></a>
+                        </li>
+                        <li><a class="menu-item" href="chartjs-pie-doughnut-charts.html"><i class="material-icons"></i><span data-i18n="Pie &amp; Doughnut charts">Pie &amp; Doughnut charts</span></a>
+                        </li>
+                        <li><a class="menu-item" href="chartjs-scatter-charts.html"><i class="material-icons"></i><span data-i18n="Scatter charts">Scatter charts</span></a>
+                        </li>
+                        <li><a class="menu-item" href="chartjs-polar-radar-charts.html"><i class="material-icons"></i><span data-i18n="Polar &amp; Radar charts">Polar &amp; Radar charts</span></a>
+                        </li>
+                        <li><a class="menu-item" href="chartjs-advance-charts.html"><i class="material-icons"></i><span data-i18n="Advance charts">Advance charts</span></a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </div>
@@ -333,27 +481,27 @@
 
     <!-- BEGIN: Footer-->
     <footer class="footer footer-static footer-light navbar-border navbar-shadow">
-        <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2"><span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2022 <a class="text-bold-800 grey darken-2" href="https://dekbanbanproject.com" target="_blank">Dekbanbanproject</a></span><span class="float-md-right d-none d-lg-block">Create & Made with<i class="ft-heart pink"></i><span id="scroll-top"></span></span></p>
+        <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2"><span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2019 <a class="text-bold-800 grey darken-2" href="https://1.envato.market/modern_admin" target="_blank">PIXINVENT</a></span><span class="float-md-right d-none d-lg-block">Hand-crafted & Made with<i class="ft-heart pink"></i><span id="scroll-top"></span></span></p>
     </footer>
     <!-- END: Footer-->
 
 
     <!-- BEGIN: Vendor JS-->
-    <script src="{{asset('app-assets/vendors/js/material-vendors.min.js')}}"></script>
+    <script src="../../../app-assets/vendors/js/material-vendors.min.js"></script>
     <!-- BEGIN Vendor JS-->
 
     <!-- BEGIN: Page Vendor JS-->
-    <script src="{{asset('app-assets/vendors/js/charts/chart.min.js')}}"></script>
+    <script src="../../../app-assets/vendors/js/charts/chart.min.js"></script>
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
-    <script src="{{asset('app-assets/js/core/app-menu.js')}}"></script>
-    <script src="{{asset('app-assets/js/core/app.js')}}"></script>
+    <script src="../../../app-assets/js/core/app-menu.js"></script>
+    <script src="../../../app-assets/js/core/app.js"></script>
     <!-- END: Theme JS-->
 
     <!-- BEGIN: Page JS-->
-    <script src="{{asset('app-assets/js/scripts/pages/material-app.js')}}"></script>
-    <script src="{{asset('app-assets/js/scripts/pages/appointment.js')}}"></script>
+    <script src="../../../app-assets/js/scripts/pages/material-app.js"></script>
+    <script src="../../../app-assets/js/scripts/pages/appointment.js"></script>
     <!-- END: Page JS-->
 
 </body>

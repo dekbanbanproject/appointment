@@ -21,3 +21,6 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/sendnotify', [App\Http\Controllers\HomeController::class, 'sendnotify'])->name('sendnotify');
+
+
+Route::get('dashboard/main', [App\Http\Controllers\DasdboardController::class, 'main'])->name('db.main');
